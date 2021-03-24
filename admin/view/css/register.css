@@ -1,0 +1,85 @@
+.container {
+    width: 45%;
+    margin: 0 auto;
+    background-color: white;
+    margin-top: 50px
+}
+
+*,
+ ::after,
+ ::before {
+    box-sizing: border-box;
+}
+
+.box {
+    padding: 130px 30px;
+    width: 75%;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #EFEEE9;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 0 !important;
+}
+
+table {
+    width: 100%;
+    padding: 20px;
+}
+
+.formLogin input[type="text"],
+.formLogin input[type="password"] {
+    width: 100%;
+    height: 42px;
+    border-radius: 4px;
+    border: solid 1.5px lightgray;
+    padding: 15px;
+}
+
+.formLogin table {
+    border-collapse: separate;
+    border-spacing: 7px;
+}
+
+.gt {
+    position: relative;
+}
+
+.gt input[type="text"],
+input[type="passaword"] {
+    background: white;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 11px 18px;
+    border-radius: 5px;
+    border: 1px solid #bab6b6;
+    cursor: pointer;
+    background-color: rgb(235, 61, 67);
+    color: white
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(206, 37, 43);
+}
+
+em {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-image: url(../images/error.png);
+    margin-right: 4px;
+}
+
+span {
+    display: block;
+    padding-top: 5px;
+    color: #E82228;
+    clear: both;
+    font-size: 2vh;
+}
